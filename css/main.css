@@ -1,0 +1,43 @@
+#home{
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.recipe{
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.recipe img{
+    border-radius: 10px;
+}
+.recipe-image{
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.recipe-title{
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.caption h1{
+    font-size: 50px;
+    margin: 30px auto;
+}
+#recipes{
+    background: #faf3f1 url(../images/1.png);
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px auto;
+}

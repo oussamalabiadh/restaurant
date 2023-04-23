@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="OUSSAMA LABIADH ">
+  <link rel="icon" href="images/Angular_full_color_logo.svg.png">
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cambay&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;700&family=The+Nautigal:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <title>Resturant "Api"</title>
+</head>
+
+<body>
+  <section id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Recipes </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link">pizza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">hamburger</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">popcorn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">pasta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">seafood</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">ice cream</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">blueberry</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="w-100 h-100 d-flex justify-content-center align-items-center">
+      <div class="caption text-center text-light">
+        <h3>Hello!</h3>
+        <h1>Check your list of <span class="text-warning">Recipes</span> </h1>
+      </div>
+    </div>
+  </section>
+  <section id="recipes">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Recipe Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="recipeData" class="modal-body">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5 ">
+      <div class="row px-2" id="recipesRow">
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h2 class="h6 small text-center mb-0 py-3 fixed-bottom bg-dark text-white"><span id="date"></span> © Created BY OUSSAMA LABIADH</h2>
+ </footer>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
